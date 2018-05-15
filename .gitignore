@@ -3,7 +3,6 @@
 __pycache__/
 logs/
 images/
-main.py
 conf/is_debug.py
 *.py[cod]
 *$py.class
@@ -118,3 +117,6 @@ ENV/
 *.log
 *.log.*
 *.pyc
+
+Pipfile
+!/qq_news/qq_news/qq_news/main.py
