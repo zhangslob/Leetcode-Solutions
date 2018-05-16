@@ -1,2 +1,2 @@
-# [LeetCode](https://leetcode.com) 的 Python 和 Go 解答
+# [LeetCode](https://leetcode-cn.com/) 的 Python 和 Go 解答
 
