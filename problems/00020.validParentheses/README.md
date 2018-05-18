@@ -47,7 +47,7 @@
 
 
 
-```Java
+```java
 public boolean isValid(String s) {
     Stack<Character> stack = new Stack<>();
     if (s.length() % 2 != 0) {
@@ -93,4 +93,8 @@ private static boolean isCouple(char a, char b) {
     }
 }
 ```
+<<<<<<< HEAD
 [问题链接](https://leetcode-cn.com/problems/valid-parentheses/description/)
+=======
+[问题链接](https://leetcode-cn.com/problems/valid-parentheses/description/)
+>>>>>>> fa6c68fe0f851ef0d15b30bfe06724100737ba57
