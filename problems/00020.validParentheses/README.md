@@ -45,6 +45,8 @@
 
 可以利用栈——LIFO（先进先出）的特点，对于传入的字符串，从第一个符号开始，往栈中push值，当遇到一个右括号，则直接与栈中最顶层的括号对比是否为“一对”，如果是则将顶层的值出栈，如果不是则程序返回false。大致思路是这样，再进行一些细节处理就可以完成啦。下面是java代码：
 
+Java
+
 ```
 public boolean isValid(String s) {
     Stack<Character> stack = new Stack<>();
@@ -91,3 +93,4 @@ private static boolean isCouple(char a, char b) {
     }
 }
 ```
+[问题链接](https://leetcode-cn.com/problems/valid-parentheses/description/)
