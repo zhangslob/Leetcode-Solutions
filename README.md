@@ -1,9 +1,19 @@
-# [LeetCode](https://leetcode-cn.com/) 的 Python 和 Go 解答
+# [LeetCode Solutions](https://leetcode-cn.com/)
 
 ## 如何开发
 
-clone 项目 选择dev 分支
+首先，联系[小歪](https://github.com/zhangslob)，加入开发者。
+
+然后，clone 项目 选择dev 分支
 `git clone -b dev git@github.com:zhangslob/Leetcode-Solutions.git`
+
+```bash
+git add .
+git commit -m "messages""
+git push origin dev
+```
+
+>若有冲突，请先合并最先分支。`git pull origin dev`
 
 ## 其他说明
 
