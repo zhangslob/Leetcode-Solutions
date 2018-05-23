@@ -67,9 +67,9 @@ class Solution:
         :type x: int
         :rtype: bool
         """
-        n=str(x)  
-        m=n[::-1]  
-        return n==m  
+        n = str(x)  
+        m = n[::-1]  
+        return n == m  
 ```
 
 ## Golang

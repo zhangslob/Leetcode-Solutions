@@ -1,5 +1,8 @@
 # 20.ValidParentheses
 
+
+[问题链接](https://leetcode-cn.com/problems/valid-parentheses/description/)
+
 # 题目
 
 给定一个只包括 `'('`，`')'`，`'{'`，`'}'`，`'['`，`']'` 的字符串，判断字符串是否有效。
@@ -94,4 +97,3 @@ private static boolean isCouple(char a, char b) {
 }
 ```
 
-[问题链接](https://leetcode-cn.com/problems/valid-parentheses/description/)
