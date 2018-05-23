@@ -1,4 +1,4 @@
-# 15. [3Sum](https://leetcode-cn.com/problems/3sum/description/)
+#15. [3Sum](https://leetcode-cn.com/problems/3sum/description/)
 
 # 题目
 
@@ -18,6 +18,7 @@
 双指针，第311个例子超时
 
 ```python
+
 class Solution:
     def threeSum(self, nums):
         """
@@ -45,4 +46,5 @@ class Solution:
                     j += 1
                     continue
         return sorted(list(s), key = lambda x:(x[0], x[1], x[2]))
+		
 ```
