@@ -1,4 +1,4 @@
-#15. [3Sum](https://leetcode-cn.com/problems/3sum/description/)
+# 15. [3Sum](https://leetcode-cn.com/problems/3sum/description/)
 
 # 题目
 
