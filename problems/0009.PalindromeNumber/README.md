@@ -1,5 +1,7 @@
 # 9.PalindromeNumber
 
+[问题链接](https://leetcode-cn.com/problems/palindrome-number/description/)
+
 # 题目
 
 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
@@ -35,6 +37,8 @@
 
 解决问题的思路是将传入的数据进行反转，当然如果是字符串的话，反转会比较方便。但是一味地用字符串或者list解题未免太不程序员了，那么我们就用计算的方法吧。要想将数字反转，按照思路我们要将数字最右边的数据一个一个拿出来，并且放在最左边。最主要的“拿出来”这一步，可以用取模运算（这里不考虑负数，所以不讨论是取模还是求余），”拿出来“后将原始数据除以10，就可以得到下一次需要被操作的数据了。下面是java代码：
 
+## java
+
 ```java
 public boolean isPalindrome(int x) {
         boolean b = false;
@@ -52,4 +56,46 @@ public boolean isPalindrome(int x) {
     }
 ```
 
-[问题链接](https://leetcode-cn.com/problems/palindrome-number/description/)
+## Python
+
+用Python比较简单，直接使用字符串的切片来倒序
+
+```python
+class Solution:
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        n=str(x)  
+        m=n[::-1]  
+        return n==m  
+```
+
+## Golang
+
+检查一个整数是否是回文。
+
+先把整数转换成字符串，再检查字符串是否是回文。
+
+```go 
+package main
+
+import "strconv"
+
+func isPalindrome(x int) bool {
+    if x < 0 {
+		return false
+	}
+
+	s := strconv.Itoa(x)
+
+	for i, j := 0, len(s)-1; i < j; i, j = i+1, j-1 {
+		if s[i] != s[j] {
+			return false
+		}
+	}
+
+	return true
+}
+```
