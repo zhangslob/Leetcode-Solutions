@@ -51,3 +51,67 @@ class Solution:
         return sorted(list(s), key = lambda x:(x[0], x[1], x[2]))
 		
 ```
+
+## Python ||
+
+
+```python
+class Solution:
+    def threeSum(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        if len(nums) < 3:
+            return []
+        nums.sort()
+        res = set()
+        for i, v in enumerate(nums[:-2]):
+            if i >= 1 and v == nums[i-1]:
+                continue
+            d = {}
+            for x in nums[i+1:]:
+                if x not in d:
+                    d[-v-x] = 1
+                else:
+                    res.add((v, -v-x, x))
+        return list(res)
+
+```
+
+## Golang
+
+```golang
+func threeSum(nums []int) [][]int {
+	sort.Ints(nums)
+	var solus = make([][]int, 0)
+	for lo := 0; lo < len(nums)-2; lo++ {
+		mid, hi, target := lo+1, len(nums)-1, -nums[lo]
+		for mid < hi {
+			sum := nums[mid] + nums[hi]
+			switch {
+			case sum < target:
+				mid++
+			case sum > target:
+				hi--
+			default: // find one
+				solus = append(solus, []int{nums[lo], nums[mid], nums[hi]})
+				for mid+1 < hi && nums[mid] == nums[mid+1] { // move next to the right-most same number
+					mid++
+				}
+				for hi-1 > mid && nums[hi] == nums[hi-1] { // move back to the left-most same number
+					hi--
+				}
+				mid++
+				hi--
+			}
+		}
+		for lo+1 < len(nums) && nums[lo] == nums[lo+1] { // move next to the right-most same number
+			lo++
+		}
+	}
+	return solus
+}
+```
+
+目前还是看不懂 golang ，┭┮﹏┭┮
