@@ -2,7 +2,7 @@
 
 ## 如何开发
 
-首先，联系[小歪](https://github.com/zhangslob)，加入开发者。
+首先，[在此issue留言](https://github.com/zhangslob/Leetcode-Solutions/issues/8)，加入开发者。
 
 然后，clone 项目 选择dev 分支
 `git clone -b dev git@github.com:zhangslob/Leetcode-Solutions.git`
