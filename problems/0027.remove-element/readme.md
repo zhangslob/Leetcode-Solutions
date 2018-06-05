@@ -69,3 +69,32 @@ class Solution(object):
         return j
 
 ```	
+
+#### C++
+```
+class  solution{
+public:
+  int removeElement(int A[],int length,int elem){
+
+    int j = 0;
+
+    //length = 数组长度 - a[]长度
+    for(int i = 0; i < n; i++){
+      if (A[i] == elem){
+
+        //如果相等，说明当前数组的下标i，正是要remove的value,和目标elem一致 - 新数组长度不+
+        continue;
+
+      }else{
+
+        //如果不等的，就放到新的数组里 - 最终取A[j]
+        A[j] = A[i];
+
+        //说明不相等，j++，j表示当前数组长度
+        j++;
+      }
+
+    }
+    return j;
+  }
+};
