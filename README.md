@@ -18,3 +18,9 @@ git push origin dev
 ## 其他说明
 
 题目自选，可以有多种解法。格式请参考 [0001.two-sum/](https://github.com/zhangslob/Leetcode-Solutions/tree/master/problems/0001.two-sum)
+
+作者请加入此群
+
+![](https://i.imgur.com/ddWGZ0R.png)
+
+（若时间过期，请加微信：zhang7350）
