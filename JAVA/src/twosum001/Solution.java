@@ -1,3 +1,5 @@
+package src.twosum001;
+
 import java.util.Arrays;
 import java.util.HashMap;
 
@@ -5,7 +7,7 @@ import java.util.HashMap;
  * @author zhangslob
  * https://leetcode.com/problems/two-sum/submissions/
  */
-public class TwoSum {
+public class Solution {
     /**
      * @param nums
      * @param target
@@ -31,7 +33,7 @@ public class TwoSum {
     public static void main(String[] args) {
         int[] nums = new int[]{2, 7, 11, 15};
         int target = 9;
-        TwoSum twoSum = new TwoSum();
+        Solution twoSum = new Solution();
         int[] res = twoSum.twoSum(nums, target);
         System.out.println(res);
         System.out.println(Arrays.toString(res));
