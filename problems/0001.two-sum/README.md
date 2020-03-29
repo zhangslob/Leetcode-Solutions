@@ -1,51 +1,95 @@
-# 1. [Two Sum](https://leetcode-cn.com/problems/two-sum/description/)
+# 1. 两数之和[Two Sum]
 
-# 题目
+[原题链接](https://leetcode-cn.com/problems/two-sum/)
+
+## 题目
 
 给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。
 
 你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。
 
 示例:
-```
+
+```bash
 给定 nums = [2, 7, 11, 15], target = 9
 
 因为 nums[0] + nums[1] = 2 + 7 = 9
 所以返回 [0, 1]
 ```
 
-# 解题思路
+## 解题思路
 
-## 1 Go
-`a + b = target`
+字典储存之前的状态，避免重复。
 
-也可以看成是
+时间复杂度：O(n)
+空间复杂度：O(1)
 
-`a = target - b`
+## 代码
 
-在map[整数]整数的序号中，可以查询到a的序号。这样就不用嵌套两个for循环了。
+### JAVA
 
-```go
-func twoSum(nums []int, target int) []int {
-	m := make(map[int]int, len(nums))
+```java
+import java.util.HashMap;
+import java.util.Map;
 
-	for i, b := range nums {
-		if j, ok := m[target-b]; ok {
-			return []int{j, i}
-		}
+class Solution {
+    public int[] twoSum(final int[] nums, final int target) {
+        if (nums.length <= 1) {
+            return new int[] { -1, -1 };
+        }
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int res = target - nums[i];
+            if (map.containsKey(res)) {
+                return new int[] { map.get(res), i };
+            } else {
+                map.put(nums[i], i);
+            }
+        }
+        return new int[] { -1, -1 };
+    }
 
-		m[nums[i]] = i
-	}
-
-	return nil
+    public static void main(String[] args) {
+        int[] nums = new int[] { 2, 7, 11, 15 };
+        int[] ans = new Solution().twoSum(nums, 9);
+        System.out.println(ans[0]);
+        System.out.println(ans[1]);
+        // 0, 1
+    }
 }
 ```
 
-## 2 Python
+执行用时 : 3 ms , 在所有 Java 提交中击败了 91.28% 的用户
+内存消耗 : 41.4 MB , 在所有 Java 提交中击败了 5.02% 的用户
 
-1. 由于要找到符合题意的数组元素的下标，所以先要将原来的数组深拷贝一份，然后排序。
-2. 然后在排序后的数组中找两个数使它们相加为target。这个思路比较明显：使用两个指针，一个指向头，一个指向尾，两个指针向中间移动并检查两个指针指向的数的和是否为target。如果找到了这两个数，再将这两个数在原数组中的位置找出来就可以了。
-3. 要注意的一点是：在原来数组中找下标时，需要一个从头找，一个从尾找，要不无法通过。如这个例子：numbers=[0,1,2,0]; target=0。如果都从头开始找，就会有问题。
+### Go
+
+```go
+package main
+
+import "fmt"
+
+func twoSum(nums []int, target int) []int {
+	maps := make(map[int]int, len(nums))
+	for i, j := range nums {
+		if index, ok := maps[target-j]; ok {
+			return []int{index, i}
+		}
+		maps[j] = i
+	}
+	return nil
+}
+func main() {
+	nums := []int{2, 7, 11, 15}
+	fmt.Println(twoSum(nums, 9))
+}
+
+```
+
+执行用时 : 12 ms , 在所有 Go 提交中击败了 40.21% 的用户
+内存消耗 : 3.4 MB , 在所有 Go 提交中击败了 58.79% 的用户
+
+### Python
 
 ```python
 class Solution:
@@ -59,3 +103,6 @@ class Solution:
             else:
                 d[target - nums[i]] = i
 ```
+
+执行用时 : 28 ms , 在所有 Python3 提交中击败了 99.63% 的用户 
+内存消耗 : 15.1 MB , 在所有 Python3 提交中击败了 5.00% 的用户
