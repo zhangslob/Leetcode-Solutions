@@ -24,7 +24,7 @@
 #### 2 Python
 
 ```
-class Solution(object):
+class problem.Solution(object):
     def moveZeroes(self, nums):
         """
         :type nums: List[int]

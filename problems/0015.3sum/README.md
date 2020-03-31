@@ -22,7 +22,7 @@
 
 ```python
 
-class Solution:
+class problem.Solution:
     def threeSum(self, nums):
         """
         :type nums: List[int]
@@ -56,7 +56,7 @@ class Solution:
 
 
 ```python
-class Solution:
+class problem.Solution:
     def threeSum(self, nums):
         """
         :type nums: List[int]

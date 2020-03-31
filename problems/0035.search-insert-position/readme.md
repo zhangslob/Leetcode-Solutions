@@ -32,7 +32,7 @@
 
 
 ```python
-class Solution(object):
+class problem.Solution(object):
     def helper(self, nums, target):
         length = len(nums)
         if length <= 2:

@@ -37,7 +37,7 @@
 #### Python
 
 ```
-class Solution(object):
+class problem.Solution(object):
     # @param {integer} n
     # @return {string}
     def countAndSay(self, n):

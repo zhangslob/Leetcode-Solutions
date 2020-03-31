@@ -61,7 +61,7 @@ public boolean isPalindrome(int x) {
 用Python比较简单，直接使用字符串的切片来倒序
 
 ```python
-class Solution:
+class problem.Solution:
     def isPalindrome(self, x):
         """
         :type x: int

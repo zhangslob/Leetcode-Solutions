@@ -1,4 +1,4 @@
-# 1. 两数之和[Two Sum]
+# 两数之和
 
 [原题链接](https://leetcode-cn.com/problems/two-sum/)
 
@@ -32,7 +32,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+class problem.Solution {
     public int[] twoSum(final int[] nums, final int target) {
         if (nums.length <= 1) {
             return new int[] { -1, -1 };
@@ -51,7 +51,7 @@ class Solution {
 
     public static void main(String[] args) {
         int[] nums = new int[] { 2, 7, 11, 15 };
-        int[] ans = new Solution().twoSum(nums, 9);
+        int[] ans = new problem.Solution().twoSum(nums, 9);
         System.out.println(ans[0]);
         System.out.println(ans[1]);
         // 0, 1
@@ -92,7 +92,7 @@ func main() {
 ### Python
 
 ```python
-class Solution:
+class problem.Solution:
     def twoSum(self, nums, target):
         if len(nums) <= 1:
             return False
@@ -104,5 +104,5 @@ class Solution:
                 d[target - nums[i]] = i
 ```
 
-执行用时 : 28 ms , 在所有 Python3 提交中击败了 99.63% 的用户 
+执行用时 : 28 ms , 在所有 Python3 提交中击败了 99.63% 的用户
 内存消耗 : 15.1 MB , 在所有 Python3 提交中击败了 5.00% 的用户

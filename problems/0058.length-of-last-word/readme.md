@@ -5,7 +5,7 @@
 
 
 ```python
-class Solution(object):
+class problem.Solution(object):
 
     # @param s, a string
     # @return an integer

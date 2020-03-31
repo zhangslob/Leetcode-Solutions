@@ -24,7 +24,7 @@
 利用python当中的collections 对数组进行统计 里面出现次数最多的就是我们需要的
 
 ```
-class Solution(object):
+class problem.Solution(object):
     def majorityElement(self, nums):
         """
         :type nums: List[int]

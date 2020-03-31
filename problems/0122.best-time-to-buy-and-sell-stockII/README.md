@@ -35,7 +35,7 @@
 直接使用贪心算法 只要当前价格比前一天的低 就卖了股票 然后再买
 
 ```
-class Solution(object):
+class problem.Solution(object):
     def maxProfit(self, prices):
         """
         :type prices: List[int]

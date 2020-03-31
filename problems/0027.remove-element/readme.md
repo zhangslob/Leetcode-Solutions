@@ -52,7 +52,7 @@
 #### Python
 
 ```
-class Solution(object):
+class problem.Solution(object):
     def removeElement(self, nums, val):
         """
         :type nums: List[int]

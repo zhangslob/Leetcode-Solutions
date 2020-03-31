@@ -32,7 +32,7 @@
 
 
 ```
-class Solution(object):
+class problem.Solution(object):
     def maxProfit(self, prices):
         """
         :type prices: List[int]

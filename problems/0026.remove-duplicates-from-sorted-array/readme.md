@@ -47,7 +47,7 @@
 
 
 ```
-class Solution(object):
+class problem.Solution(object):
     def removeDuplicates(self, nums):
         """
         :type nums: List[int]

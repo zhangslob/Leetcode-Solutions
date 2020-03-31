@@ -28,7 +28,7 @@
 ## Python
 
 ```python
-class Solution(object):
+class problem.Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
         :type s: str

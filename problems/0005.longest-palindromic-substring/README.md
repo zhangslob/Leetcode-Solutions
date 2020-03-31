@@ -37,7 +37,7 @@
 
 ```python
 
-class Solution:
+class problem.Solution:
     def longestPalindrome(self, s):
         s_list = [str1 for str1 in s]
         string = '#' + '#'.join(s_list) + '#'

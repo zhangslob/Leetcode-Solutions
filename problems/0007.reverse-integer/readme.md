@@ -29,7 +29,7 @@
 ## Python
 
 ```python
-class Solution(object):
+class problem.Solution(object):
     def reverse(self, x):
         """
         :type x: int
@@ -51,7 +51,7 @@ class Solution(object):
 利用Python的字符串反转操作来实现对整数的反转，反转后的字符串要重新转换为整数。同上面一样，要注意正负和溢出情况。
 
 ```python
-class Solution(object):
+class problem.Solution(object):
     def reverse(self, x):
         """
         :type x: int

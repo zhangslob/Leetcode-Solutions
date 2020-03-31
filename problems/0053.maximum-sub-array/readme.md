@@ -38,7 +38,7 @@ max_sum 必然是以A[i](取值范围为A[0] ~ A[n-1])结尾的某段构成的�
 #### Python
 
 ```
-class Solution(object):
+class problem.Solution(object):
     def maxSubArray(self, array):
         """
         :type array: List[int]
@@ -61,7 +61,7 @@ class Solution(object):
 
 
 ```
-class Solution(object):
+class problem.Solution(object):
     def maxSubArray(self, nums):
         """
         :type nums: List[int]

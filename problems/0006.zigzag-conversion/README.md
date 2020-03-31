@@ -40,7 +40,7 @@ P     I
 
 ## Python
 ```python
-class Solution(object):
+class problem.Solution(object):
     def convert(self, s, numRows):
         """
         :type s: str
@@ -73,7 +73,7 @@ class Solution(object):
 
 
 ```python
-class Solution:
+class problem.Solution:
     # @return a string
     def convert(self, s, nRows):
         if nRows==1: return s

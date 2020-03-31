@@ -32,7 +32,7 @@ nums2 = [3, 4]
 利用了取反数和为 1 的特性，通过列表负索引来获得列表中位数。如下：
 
 ```python
-class Solution:
+class problem.Solution:
     def findMedianSortedArrays(self, nums1, nums2):
         data = nums1 + nums2
         data.sort()

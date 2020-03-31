@@ -11,7 +11,7 @@
 #### Python
 
 ```python
-class Solution(object):
+class problem.Solution(object):
     # @param digits, a list of integer digits
     # @return a list of integer digits
     def plusOne(self, digits):

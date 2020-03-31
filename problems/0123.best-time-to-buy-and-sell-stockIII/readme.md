@@ -37,7 +37,7 @@
 将天数分开，前i天调用一次121的算法，后面的天调用一次121的算法，但是要注意如果外层循环i，里面再循环121的算法，会超时，这时我们考虑用两个数组来存储结果，pre\_profit和pro\_profit，其中pre\_profit[i]表示i天之前的最大利润，pro\_profit[i]表示i天之后的最大利润，前i天的很好理解和121一样的写法，后i天注意要从后往前动态规划。
 
 ```python
-class Solution(object):
+class problem.Solution(object):
     def maxProfit(self, prices):
         n = len(prices)
         if n < 2:
@@ -60,6 +60,6 @@ class Solution(object):
         return max_profit
 
 
-print(Solution().maxProfit([3,3,5,0,0,3,1,4]))
+print(problem.Solution().maxProfit([3,3,5,0,0,3,1,4]))
 
 ```

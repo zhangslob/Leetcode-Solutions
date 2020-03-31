@@ -30,7 +30,7 @@
 #### Python
 
 ```
-class Solution(object):
+class problem.Solution(object):
     def strStr(self, haystack, needle):
         """
         :type haystack: str
