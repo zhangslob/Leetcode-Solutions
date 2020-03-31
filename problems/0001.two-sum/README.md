@@ -32,7 +32,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class problem.Solution {
+class Solution {
     public int[] twoSum(final int[] nums, final int target) {
         if (nums.length <= 1) {
             return new int[] { -1, -1 };
@@ -59,8 +59,8 @@ class problem.Solution {
 }
 ```
 
-执行用时 : 3 ms , 在所有 Java 提交中击败了 91.28% 的用户
-内存消耗 : 41.4 MB , 在所有 Java 提交中击败了 5.02% 的用户
+- 执行用时 : 3 ms , 在所有 Java 提交中击败了 91.28% 的用户
+- 内存消耗 : 41.4 MB , 在所有 Java 提交中击败了 5.02% 的用户
 
 ### Go
 
@@ -86,13 +86,13 @@ func main() {
 
 ```
 
-执行用时 : 12 ms , 在所有 Go 提交中击败了 40.21% 的用户
-内存消耗 : 3.4 MB , 在所有 Go 提交中击败了 58.79% 的用户
+- 执行用时 : 12 ms , 在所有 Go 提交中击败了 40.21% 的用户
+- 内存消耗 : 3.4 MB , 在所有 Go 提交中击败了 58.79% 的用户
 
 ### Python
 
 ```python
-class problem.Solution:
+class Solution:
     def twoSum(self, nums, target):
         if len(nums) <= 1:
             return False
@@ -104,5 +104,5 @@ class problem.Solution:
                 d[target - nums[i]] = i
 ```
 
-执行用时 : 28 ms , 在所有 Python3 提交中击败了 99.63% 的用户
-内存消耗 : 15.1 MB , 在所有 Python3 提交中击败了 5.00% 的用户
+- 执行用时 : 28 ms , 在所有 Python3 提交中击败了 99.63% 的用户
+- 内存消耗 : 15.1 MB , 在所有 Python3 提交中击败了 5.00% 的用户
