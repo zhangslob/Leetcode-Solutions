@@ -1,4 +1,4 @@
-# 编辑举例
+# 编辑距离
 
 [原题链接](https://leetcode-cn.com/problems/edit-distance/)
 
