@@ -34,7 +34,9 @@ Contact Me: zhangslob&gmail
 |0002|[两数相加](./problems/0002.add-two-numbers/README.md)|Medium|  2020-03-31 |
 |0022|[括号生成](./problems/0022.generate-parentheses/README.md)|Medium|  2020-04-09 |
 |0107|[旋转矩阵](./problems/0107.rotate-matrix-lcci/README.md)|Medium|  2020-04-07 |
+|0200|[岛屿数量](./problems/0200.number-of-islands/README.md)|Medium|  2020-04-20 |
 |0445|[两数相加 II](./problems/0445.add-two-numbers-ii/README.md)|Medium|  2020-04-15 |
+|0542|[01 矩阵](./problems/0542.01-matrix/README.md)|Medium|  2020-04-21 |
 |1111|[有效括号的嵌套深度](./problems/1111.maximum-nesting-depth-of-two-valid-parentheses-strings/README.md)|Medium|  2020-04-01 |
 |1143|[最长公共子序列](./problems/1143.longest-common-subsequence/README.md)|Medium|  2020-04-09 |
 
