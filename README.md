@@ -39,4 +39,5 @@ Contact Me: zhangslob&gmail
 |0542|[01 矩阵](./problems/0542.01-matrix/README.md)|Medium|  2020-04-21 |
 |1111|[有效括号的嵌套深度](./problems/1111.maximum-nesting-depth-of-two-valid-parentheses-strings/README.md)|Medium|  2020-04-01 |
 |1143|[最长公共子序列](./problems/1143.longest-common-subsequence/README.md)|Medium|  2020-04-09 |
+|1248|[统计「优美子数组」](./problems/1248.count-number-of-nice-subarrays/README.md)|Medium|  2020-04-21 |
 
