@@ -33,6 +33,7 @@ Contact Me: zhangslob&gmail
 |0001|[两数之和](./problems/0001.two-sum/README.md)|Easy| 2020-03-31 |
 |0002|[两数相加](./problems/0002.add-two-numbers/README.md)|Medium|  2020-03-31 |
 |0022|[括号生成](./problems/0022.generate-parentheses/README.md)|Medium|  2020-04-09 |
+|0033|[搜索旋转排序数组](./problems/0033.search-in-rotated-sorted-array/README.md)|Medium|  2020-04-27 |
 |0107|[旋转矩阵](./problems/0107.rotate-matrix-lcci/README.md)|Medium|  2020-04-07 |
 |0199|[二叉树的右视图](./problems/0199.binary-tree-right-side-view/README.md)|Medium|  2020-04-22 |
 |0200|[岛屿数量](./problems/0200.number-of-islands/README.md)|Medium|  2020-04-20 |
