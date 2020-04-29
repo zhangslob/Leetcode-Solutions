@@ -40,6 +40,7 @@ Contact Me: zhangslob&gmail
 |0200|[岛屿数量](./problems/0200.number-of-islands/README.md)|Medium|  2020-04-20 |  深度优先搜索、广度优先搜索、并查集  |
 |0445|[两数相加 II](./problems/0445.add-two-numbers-ii/README.md)|Medium|  2020-04-15 |  链表  |
 |0542|[01 矩阵](./problems/0542.01-matrix/README.md)|Medium|  2020-04-21 |  深度优先搜索、广度优先搜索  |
+|1095|[山脉数组中查找目标值](./problems/1095.find-in-mountain-array/README.md)|Hard|  2020-04-29 |  二分查找  |
 |1111|[有效括号的嵌套深度](./problems/1111.maximum-nesting-depth-of-two-valid-parentheses-strings/README.md)|Medium|  2020-04-01 | 贪心算法、二分查找 |
 |1143|[最长公共子序列](./problems/1143.longest-common-subsequence/README.md)|Medium|  2020-04-09 | 动态规划 |
 |1248|[统计「优美子数组」](./problems/1248.count-number-of-nice-subarrays/README.md)|Medium|  2020-04-21 | 双指针 |
