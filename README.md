@@ -38,6 +38,7 @@ Contact Me: zhangslob&gmail
 |0107|[旋转矩阵](./problems/0107.rotate-matrix-lcci/README.md)|Medium|  2020-04-07 |  数组  |
 |0199|[二叉树的右视图](./problems/0199.binary-tree-right-side-view/README.md)|Medium|  2020-04-22 |  数、深度优先搜索、广度优先搜索  |
 |0200|[岛屿数量](./problems/0200.number-of-islands/README.md)|Medium|  2020-04-20 |  深度优先搜索、广度优先搜索、并查集  |
+|0202|[快乐数](./problems/0202.happy-number/README.md)|Easy|  2020-04-30 |  哈希表、数学 |
 |0445|[两数相加 II](./problems/0445.add-two-numbers-ii/README.md)|Medium|  2020-04-15 |  链表  |
 |0542|[01 矩阵](./problems/0542.01-matrix/README.md)|Medium|  2020-04-21 |  深度优先搜索、广度优先搜索  |
 |1095|[山脉数组中查找目标值](./problems/1095.find-in-mountain-array/README.md)|Hard|  2020-04-29 |  二分查找  |
