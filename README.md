@@ -36,6 +36,7 @@ Contact Me: zhangslob&gmail
 |0033|[搜索旋转排序数组](./problems/0033.search-in-rotated-sorted-array/README.md)|Medium|  2020-04-27 |  数组、二分查找  |
 |0045|[跳跃游戏 II](./problems/0045.jump-game-ii/README.md)|Hard|  2020-05-04 |  数组、贪心算法  |
 |0056-1|[数组中数字出现的次数](./problems/0056-1.shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/README.md)|Medium|  2020-04-28 |  数学、位运算  |
+|0098|[验证二叉搜索树](./problems/0098.validate-binary-search-tree/README.md)|Medium|  2020-05-05 |  树、深度优先搜索  |
 |0107|[旋转矩阵](./problems/0107.rotate-matrix-lcci/README.md)|Medium|  2020-04-07 |  数组  |
 |0199|[二叉树的右视图](./problems/0199.binary-tree-right-side-view/README.md)|Medium|  2020-04-22 |  数、深度优先搜索、广度优先搜索  |
 |0200|[岛屿数量](./problems/0200.number-of-islands/README.md)|Medium|  2020-04-20 |  深度优先搜索、广度优先搜索、并查集  |
