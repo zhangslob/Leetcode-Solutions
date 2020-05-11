@@ -16,6 +16,7 @@
 4. 哈希表
 5. 堆：大 / 小根堆、可并堆
 6. 字符串：字典树、后缀树
+7. [二叉树](./data_structure/binary_tree)
 
 # 动力
 
@@ -35,6 +36,7 @@ Contact Me: zhangslob&gmail
 |0022|[括号生成](./problems/0022.generate-parentheses/README.md)|Medium|  2020-04-09 |  字符串、回溯算法  |
 |0033|[搜索旋转排序数组](./problems/0033.search-in-rotated-sorted-array/README.md)|Medium|  2020-04-27 |  数组、二分查找  |
 |0045|[跳跃游戏 II](./problems/0045.jump-game-ii/README.md)|Hard|  2020-05-04 |  数组、贪心算法  |
+|0050|[Pow(x, n)](./problems/0050.powx-n/README.md)|Medium|  2020-05-11 |  数学、二分查找  |
 |0056-1|[数组中数字出现的次数](./problems/0056-1.shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/README.md)|Medium|  2020-04-28 |  数学、位运算  |
 |0098|[验证二叉搜索树](./problems/0098.validate-binary-search-tree/README.md)|Medium|  2020-05-05 |  树、深度优先搜索  |
 |0107|[旋转矩阵](./problems/0107.rotate-matrix-lcci/README.md)|Medium|  2020-04-07 |  数组  |
