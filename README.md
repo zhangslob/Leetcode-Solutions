@@ -39,6 +39,7 @@ Contact Me: zhangslob&gmail
 |0050|[Pow(x, n)](./problems/0050.powx-n/README.md)|Medium|  2020-05-11 |  数学、二分查找  |
 |0056-1|[数组中数字出现的次数](./problems/0056-1.shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/README.md)|Medium|  2020-04-28 |  数学、位运算  |
 |0098|[验证二叉搜索树](./problems/0098.validate-binary-search-tree/README.md)|Medium|  2020-05-05 |  树、深度优先搜索  |
+|0102|[二叉树的层序遍历](./problems/0102.binary-tree-level-order-traversal/README.md)|Medium|  2020-05-13 |  树、广度优先搜索  |
 |0107|[旋转矩阵](./problems/0107.rotate-matrix-lcci/README.md)|Medium|  2020-04-07 |  数组  |
 |0155|[最小栈](./problems/0155.min-stack/README.md)|Easy|  2020-05-12 |  栈、设计  |
 |0199|[二叉树的右视图](./problems/0199.binary-tree-right-side-view/README.md)|Medium|  2020-04-22 |  数、深度优先搜索、广度优先搜索  |
