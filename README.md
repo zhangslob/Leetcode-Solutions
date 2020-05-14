@@ -41,6 +41,7 @@ Contact Me: zhangslob&gmail
 |0098|[验证二叉搜索树](./problems/0098.validate-binary-search-tree/README.md)|Medium|  2020-05-05 |  树、深度优先搜索  |
 |0102|[二叉树的层序遍历](./problems/0102.binary-tree-level-order-traversal/README.md)|Medium|  2020-05-13 |  树、广度优先搜索  |
 |0107|[旋转矩阵](./problems/0107.rotate-matrix-lcci/README.md)|Medium|  2020-04-07 |  数组  |
+|0136|[只出现一次的数字](./problems/0136.single-number/README.md)|Easy|  2020-05-14 |  位运算、哈希表  |
 |0155|[最小栈](./problems/0155.min-stack/README.md)|Easy|  2020-05-12 |  栈、设计  |
 |0199|[二叉树的右视图](./problems/0199.binary-tree-right-side-view/README.md)|Medium|  2020-04-22 |  数、深度优先搜索、广度优先搜索  |
 |0200|[岛屿数量](./problems/0200.number-of-islands/README.md)|Medium|  2020-04-20 |  深度优先搜索、广度优先搜索、并查集  |
