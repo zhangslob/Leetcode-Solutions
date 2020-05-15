@@ -49,6 +49,7 @@ Contact Me: zhangslob&gmail
 |0221|[最大正方形](./problems/0221.maximal-square/README.md)|Medium|  2020-05-08 |  动态规划 |
 |0445|[两数相加 II](./problems/0445.add-two-numbers-ii/README.md)|Medium|  2020-04-15 |  链表  |
 |0542|[01 矩阵](./problems/0542.01-matrix/README.md)|Medium|  2020-04-21 |  深度优先搜索、广度优先搜索  |
+|0560|[和为K的子数组](./problems/0560.subarray-sum-equals-k/README.md)|Medium|  2020-05-15 |  数组、哈希表  |
 |0572|[另一个树的子树](./problems/0572.subtree-of-another-tree/README.md)|Easy|  2020-05-07 |  树  |
 |1095|[山脉数组中查找目标值](./problems/1095.find-in-mountain-array/README.md)|Hard|  2020-04-29 |  二分查找  |
 |1111|[有效括号的嵌套深度](./problems/1111.maximum-nesting-depth-of-two-valid-parentheses-strings/README.md)|Medium|  2020-04-01 | 贪心算法、二分查找 |
