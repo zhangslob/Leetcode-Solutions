@@ -61,7 +61,7 @@ class problem.Solution(object):
 
 
 ```
-class problem.Solution(object):
+class Solution(object):
     def maxSubArray(self, nums):
         """
         :type nums: List[int]
