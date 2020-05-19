@@ -52,6 +52,7 @@ Contact Me: zhangslob&gmail
 |0542|[01 矩阵](./problems/0542.01-matrix/README.md)|Medium|  2020-04-21 |  深度优先搜索、广度优先搜索  |
 |0560|[和为K的子数组](./problems/0560.subarray-sum-equals-k/README.md)|Medium|  2020-05-15 |  数组、哈希表  |
 |0572|[另一个树的子树](./problems/0572.subtree-of-another-tree/README.md)|Easy|  2020-05-07 |  树  |
+|0680|[验证回文字符串 Ⅱ](./problems/0680.valid-palindrome-ii/README.md)|Easy|  2020-05-19 |  字符串  |
 |1095|[山脉数组中查找目标值](./problems/1095.find-in-mountain-array/README.md)|Hard|  2020-04-29 |  二分查找  |
 |1111|[有效括号的嵌套深度](./problems/1111.maximum-nesting-depth-of-two-valid-parentheses-strings/README.md)|Medium|  2020-04-01 | 贪心算法、二分查找 |
 |1143|[最长公共子序列](./problems/1143.longest-common-subsequence/README.md)|Medium|  2020-04-09 | 动态规划 |
