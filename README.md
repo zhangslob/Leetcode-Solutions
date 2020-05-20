@@ -57,4 +57,5 @@ Contact Me: zhangslob&gmail
 |1111|[有效括号的嵌套深度](./problems/1111.maximum-nesting-depth-of-two-valid-parentheses-strings/README.md)|Medium|  2020-04-01 | 贪心算法、二分查找 |
 |1143|[最长公共子序列](./problems/1143.longest-common-subsequence/README.md)|Medium|  2020-04-09 | 动态规划 |
 |1248|[统计「优美子数组」](./problems/1248.count-number-of-nice-subarrays/README.md)|Medium|  2020-04-21 | 双指针 |
+|1371|[每个元音包含偶数次的最长子字符串](./problems/1371.find-the-longest-substring-containing-vowels-in-even-counts/README.md)|Medium|  2020-05-20 | 字符串 |
 
