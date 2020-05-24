@@ -33,6 +33,7 @@ Contact Me: zhangslob&gmail
 |---| -----  | ---------- | ---- | ---- |
 |0001|[两数之和](./problems/0001.two-sum/README.md)|Easy| 2020-03-31 |  数组、哈希表  |
 |0002|[两数相加](./problems/0002.add-two-numbers/README.md)|Medium|  2020-03-31 |  链表、数学  |
+|0005|[最长回文子串](./problems/0005.longest-palindromic-substring/README.md)|Medium|  2020-05-22 |  字符串、动态规划  |
 |0022|[括号生成](./problems/0022.generate-parentheses/README.md)|Medium|  2020-04-09 |  字符串、回溯算法  |
 |0033|[搜索旋转排序数组](./problems/0033.search-in-rotated-sorted-array/README.md)|Medium|  2020-04-27 |  数组、二分查找  |
 |0045|[跳跃游戏 II](./problems/0045.jump-game-ii/README.md)|Hard|  2020-05-04 |  数组、贪心算法  |
