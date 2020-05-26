@@ -33,6 +33,7 @@ Contact Me: zhangslob&gmail
 |---| -----  | ---------- | ---- | ---- |
 |0001|[两数之和](./problems/0001.two-sum/README.md)|Easy| 2020-03-31 |  数组、哈希表  |
 |0002|[两数相加](./problems/0002.add-two-numbers/README.md)|Medium|  2020-03-31 |  链表、数学  |
+|0004|[两个排序数组的中位数](./problems/0004.median-of-two-sorted-arrays/README.md)|Hard|  2020-05-26 |  数组、二分查找、分治算法  |
 |0005|[最长回文子串](./problems/0005.longest-palindromic-substring/README.md)|Medium|  2020-05-22 |  字符串、动态规划  |
 |0022|[括号生成](./problems/0022.generate-parentheses/README.md)|Medium|  2020-04-09 |  字符串、回溯算法  |
 |0033|[搜索旋转排序数组](./problems/0033.search-in-rotated-sorted-array/README.md)|Medium|  2020-04-27 |  数组、二分查找  |
@@ -43,6 +44,7 @@ Contact Me: zhangslob&gmail
 |0102|[二叉树的层序遍历](./problems/0102.binary-tree-level-order-traversal/README.md)|Medium|  2020-05-13 |  树、广度优先搜索  |
 |0107|[旋转矩阵](./problems/0107.rotate-matrix-lcci/README.md)|Medium|  2020-04-07 |  数组  |
 |0136|[只出现一次的数字](./problems/0136.single-number/README.md)|Easy|  2020-05-14 |  位运算、哈希表  |
+|0146|[LRU缓存机制](./problems/0146.lru-cache/README.md)|Medium|  2020-05-26 |  设计  |
 |0152|[乘积最大子数组](./problems/0152.maximum-product-subarray/README.md)|Medium|  2020-05-18 |  数组、动态规划  |
 |0155|[最小栈](./problems/0155.min-stack/README.md)|Easy|  2020-05-12 |  栈、设计  |
 |0199|[二叉树的右视图](./problems/0199.binary-tree-right-side-view/README.md)|Medium|  2020-04-22 |  数、深度优先搜索、广度优先搜索  |
