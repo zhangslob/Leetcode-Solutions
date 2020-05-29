@@ -52,6 +52,7 @@ Contact Me: zhangslob&gmail
 |0146|[LRU缓存机制](./problems/0146.lru-cache/README.md)|Medium|  2020-05-26 |  设计  |
 |0152|[乘积最大子数组](./problems/0152.maximum-product-subarray/README.md)|Medium|  2020-05-18 |  数组、动态规划  |
 |0155|[最小栈](./problems/0155.min-stack/README.md)|Easy|  2020-05-12 |  栈、设计  |
+|0198|[打家劫舍](./problems/0198.house-robber/README.md)|Easy|  2020-05-29 |  动态规划  |
 |0199|[二叉树的右视图](./problems/0199.binary-tree-right-side-view/README.md)|Medium|  2020-04-22 |  数、深度优先搜索、广度优先搜索  |
 |0200|[岛屿数量](./problems/0200.number-of-islands/README.md)|Medium|  2020-04-20 |  深度优先搜索、广度优先搜索、并查集  |
 |0202|[快乐数](./problems/0202.happy-number/README.md)|Easy|  2020-04-30 |  哈希表、数学 |
