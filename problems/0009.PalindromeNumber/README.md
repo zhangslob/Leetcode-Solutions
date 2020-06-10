@@ -1,8 +1,8 @@
-# 9.PalindromeNumber
+# 回文数
 
 [问题链接](https://leetcode-cn.com/problems/palindrome-number/description/)
 
-# 题目
+## 题目
 
 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
 
@@ -33,69 +33,100 @@
 
 你能不将整数转为字符串来解决这个问题吗？
 
-# 解题思路
+## 题解
 
-解决问题的思路是将传入的数据进行反转，当然如果是字符串的话，反转会比较方便。但是一味地用字符串或者list解题未免太不程序员了，那么我们就用计算的方法吧。要想将数字反转，按照思路我们要将数字最右边的数据一个一个拿出来，并且放在最左边。最主要的“拿出来”这一步，可以用取模运算（这里不考虑负数，所以不讨论是取模还是求余），”拿出来“后将原始数据除以10，就可以得到下一次需要被操作的数据了。下面是java代码：
+最简单常规的思路当然是转化为字符串，然后双指针判断是否相等，这肯定不是一种好方法。
 
-## java
+可以新建一个变量去表示数字转换的结果
+
+## 代码
+
+### Java
 
 ```java
-public boolean isPalindrome(int x) {
-        boolean b = false;
-        int y = 0;
-        int z = x;
-        while (z > 0) {
-            y = y * 10 + z % 10;
-            z = z / 10;
+class Solution {
+    public boolean isPalindrome(int x) {
+        if (x < 0) {
+            return false;
         }
-        if (y == x) {
-            b = true;
+        int y = 0, tmp = x;
+        while (tmp != 0) {
+            y = y * 10 + tmp % 10;
+            tmp = tmp / 10;
         }
-        return b;
-
+        return x == y;
     }
-```
-
-## Python
-
-用Python比较简单，直接使用字符串的切片来倒序
-
-```python
-class problem.Solution:
-    def isPalindrome(self, x):
-        """
-        :type x: int
-        :rtype: bool
-        """
-        n = str(x)  
-        m = n[::-1]  
-        return n == m  
-```
-
-## Golang
-
-检查一个整数是否是回文。
-
-先把整数转换成字符串，再检查字符串是否是回文。
-
-```go 
-package main
-
-import "strconv"
-
-func isPalindrome(x int) bool {
-    if x < 0 {
-		return false
-	}
-
-	s := strconv.Itoa(x)
-
-	for i, j := 0, len(s)-1; i < j; i, j = i+1, j-1 {
-		if s[i] != s[j] {
-			return false
-		}
-	}
-
-	return true
 }
 ```
+
+- 执行用时 : 9 ms , 在所有 Java 提交中击败了 99.06% 的用户 
+- 内存消耗 : 39.3 MB , 在所有 Java 提交中击败了 5.14% 的用户
+
+提交后发现一种方法，简化了计算步骤
+
+```java
+class Solution {
+    public boolean isPalindrome(int x) {
+        if (x < 0 || x % 10 == 0 && x != 0) {
+            return false;
+        }
+        int reversed = 0;
+        while (x > reversed) {
+            reversed = reversed * 10 + x % 10;
+            x /= 10;
+        }
+        return x == reversed || x == reversed / 10;
+    }
+}
+```
+
+- 执行用时 : 9 ms , 在所有 Java 提交中击败了 99.06% 的用户 
+- 内存消耗 : 39.3 MB , 在所有 Java 提交中击败了 5.14% 的用户 炫耀一下:
+
+## Go
+
+```go
+func isPalindrome(x int) bool {
+	if x < 0 || x%10 == 0 && x != 0 {
+		return false
+	}
+	reversed := 0
+	for x > reversed {
+		reversed = reversed*10 + x%10
+		x /= 10
+	}
+	return x == reversed || x == reversed/10
+}
+```
+
+- 执行用时 : 8 ms , 在所有 Go 提交中击败了 97.86% 的用户 
+- 内存消耗 : 5.2 MB , 在所有 Go 提交中击败了 88.00% 的用户
+
+### Python
+
+```python
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        if x < 0 or x % 10 == 0 and x != 0:
+            return False
+        reversed_num = 0
+        while x > reversed_num:
+            reversed_num = reversed_num * 10 + x % 10
+            x //= 10
+        return x == reversed_num or x == reversed_num // 10
+```
+
+- 执行用时 : 84 ms , 在所有 Python3 提交中击败了 70.72% 的用户
+- 内存消耗 : 13.7 MB , 在所有 Python3 提交中击败了 5.88% 的用户
+
+看看这种解法
+```python
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        return str(x) == str(x)[::-1]
+```
+
+- 执行用时 : 80 ms , 在所有 Python3 提交中击败了 80.17% 的用户 
+- 内存消耗 : 13.5 MB , 在所有 Python3 提交中击败了 5.88% 的用户
+
+> 我不服
