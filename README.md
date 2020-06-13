@@ -49,6 +49,7 @@ Contact Me: zhangslob&gmail
 |0054|[螺旋矩阵](./problems/0054.spiral-matrix/README.md)|Medium|  2020-06-06 |  数组  |
 |0056-1|[数组中数字出现的次数](./problems/0056-1.shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/README.md)|Medium|  2020-04-28 |  数学、位运算  |
 |0064|[求1+2+…+n](./problems/0064.qiu-12n-lcof/README.md)|Medium|  2020-06-02 |  奇淫技巧  |
+|0070|[爬楼梯](./problems/0070.climbing-stairs/README.md)|Easy|  2020-06-13 |  动态规划  |
 |0098|[验证二叉搜索树](./problems/0098.validate-binary-search-tree/README.md)|Medium|  2020-05-05 |  树、深度优先搜索  |
 |0101|[对称二叉树](./problems/0101.symmetric-tree/README.md)|Easy|  2020-05-31 |  树、深度优先搜索、广度优先搜索  |
 |0102|[二叉树的层序遍历](./problems/0102.binary-tree-level-order-traversal/README.md)|Medium|  2020-05-13 |  树、广度优先搜索  |
