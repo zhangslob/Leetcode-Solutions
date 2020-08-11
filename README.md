@@ -71,6 +71,7 @@ Contact Me: zhangslob&gmail
 |0560|[和为K的子数组](./problems/0560.subarray-sum-equals-k/README.md)|Medium|  2020-05-15 |  数组、哈希表  |
 |0572|[另一个树的子树](./problems/0572.subtree-of-another-tree/README.md)|Easy|  2020-05-07 |  树  |
 |0680|[验证回文字符串 Ⅱ](./problems/0680.valid-palindrome-ii/README.md)|Easy|  2020-05-19 |  字符串  |
+|0724|[寻找数组的中心索引](./problems/0724.find-pivot-index/README.md)|Easy|  2020-08-11 |  数组  |
 |0837|[新21点](./problems/0837.new-21-game/README.md)|Medium|  2020-06-03 |  动态规划、数学  |
 |0974|[和可被 K 整除的子数组](./problems/0974.subarray-sums-divisible-by-k/README.md)|Medium|  2020-05-27 |  数组、哈希表  |
 |1095|[山脉数组中查找目标值](./problems/1095.find-in-mountain-array/README.md)|Hard|  2020-04-29 |  二分查找  |
