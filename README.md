@@ -30,7 +30,8 @@ Contact Me: zhangslob&gmail
 # 秘诀
 
 1. 链表有环有快慢指针
-2. 求子数组和用前缀和
+2. 求子数组和（数组和运算）用前缀和
+3. 动态规划能否优化空间
 
 # 题目列表
 
@@ -66,7 +67,9 @@ Contact Me: zhangslob&gmail
 |0221|[最大正方形](./problems/0221.maximal-square/README.md)|Medium|  2020-05-08 |  动态规划 |
 |0238|[除自身以外数组的乘积](./problems/0238.product-of-array-except-self/README.md)|Medium|  2020-06-04 |  数组 |
 |0287|[寻找重复数](./problems/0287.find-the-duplicate-number/README.md)|Medium|  2020-05-27 |  数组、双指针、二分查找 |
+|0322|[零钱兑换](./problems/0322.coin-change/README.md)|Medium|  2020-08-16 |  动态规划 |
 |0445|[两数相加 II](./problems/0445.add-two-numbers-ii/README.md)|Medium|  2020-04-15 |  链表  |
+|0509|[斐波那契数](./problems/0509.fibonacci-number/README.md)|Easy|  2020-08-16 |  数组  |
 |0542|[01 矩阵](./problems/0542.01-matrix/README.md)|Medium|  2020-04-21 |  深度优先搜索、广度优先搜索  |
 |0560|[和为K的子数组](./problems/0560.subarray-sum-equals-k/README.md)|Medium|  2020-05-15 |  数组、哈希表  |
 |0572|[另一个树的子树](./problems/0572.subtree-of-another-tree/README.md)|Easy|  2020-05-07 |  树  |
